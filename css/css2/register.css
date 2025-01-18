@@ -1,0 +1,80 @@
+select{
+    justify-content: space-between;
+    width: 93%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 30px;
+}
+.outlet{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.firstname{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Middelname{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.Lastname{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mobileNo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.location{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+i{
+    font-size: 19px;
+}
+
+.register-img img{
+    width: 95%;
+    height: 90vh;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.logo{
+    align-items: center;
+    text-align: center;
+}
+.logo img{
+    width: 10%;
+}
+.register-form{
+    width: 30%;
+}
+.reg-form{
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
+    .register-form {
+     width: 100%;
+     align-items: center; 
+    }
+    select{
+        justify-content: space-between;
+        width: 90%;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 5px 5px 5px 5px;
+        margin-left: 30px; 
+    }
+ }
